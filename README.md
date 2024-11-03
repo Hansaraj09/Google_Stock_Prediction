@@ -5,16 +5,23 @@ This repository leverages the LSTM model for predicting Google stock prices.
 Let's have a brief walk through this!
 
 1.First of all, we download the dataset from **Yahoo Finance** having all the values from high, low, open, and close, and save them in a CSV file.
+
 2.Then after data cleaning and pre-processing, we obtain only **Date** and **Close** values of the stocks
+
 3.Then we visualize the data by plotting it to see its trends.
 
 ![image](https://github.com/user-attachments/assets/4974b9d5-44ef-4e19-865c-da8e8dd634f0)
 
 4.Then we convert the data into a supervised learning framework for the LSTM model having stock prices upto 3 previous dates.
+
 5.We should remember that in a time series forecasting model, it is necessary as the current values depend on previous values.
+
 6.Then we call the LSTM model, compile it, and fit the model with a suitable number of epochs over the dataset.
+
 7.We monitor the **means_absolute_error**.
+
 8.After fitting the model we visualize the plot from which we can see that the **Validation Observation** and **Validation Predictions** and divering. Also, the **validation_mean_absolute_error** value is high.
+
 9.So to reduce it we adjust the date window and finally obtain
 
 ![image](https://github.com/user-attachments/assets/22549959-5a26-4d0b-accf-6fecc151d349)
