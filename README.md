@@ -1,8 +1,8 @@
-**Welcome to Google Stock Price Prediction Model !!!**
+**Welcome to Google Stock Price Prediction Model Repository!!!**
 
 This repository leverages the LSTM model for predicting Google stock prices.
 
-Let's have a brief walk through this
+Let's have a brief walk through this!
 
 1.First of all, we download the dataset from **Yahoo Finance** having all the values from high, low, open, and close, and save them in a CSV file.
 2.Then after data cleaning and pre-processing, we obtain only **Date** and **Close** values of the stocks
