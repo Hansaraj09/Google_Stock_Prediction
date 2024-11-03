@@ -18,7 +18,7 @@ Let's have a brief walk through this!
 
 6.Then we call the LSTM model, compile it, and fit the model with a suitable number of epochs over the dataset.
 
-7.We monitor the **means_absolute_error**.
+7.We monitor the **mean_absolute_error**.
 
 8.After fitting the model we visualize the plot from which we can see that the **Validation Observation** and **Validation Predictions** and divering. Also, the **validation_mean_absolute_error** value is high.
 
