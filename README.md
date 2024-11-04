@@ -14,17 +14,17 @@ Let's have a brief walk through this!
 
 4. Then, we convert the data into a supervised learning framework for the LSTM model, which has stock prices up to 3 previous dates.
 
-5.We should remember that it is necessary in a time series forecasting model as the current values depend on previous values.
+5. We should remember that it is necessary in a time series forecasting model as the current values depend on previous values.
 
 6. Then we call the LSTM model, compile it, and fit the model with a suitable number of epochs over the dataset.
 
 7. We monitor the **mean_absolute_error**.
 
-8. After fitting the model we visualize the plot from which we can see that the **Validation Observation** and **Validation Predictions** and divering. Also, the **validation_mean_absolute_error** value is high.
+8. After fitting the model we visualize the plot from which we can see that the **Validation Observation** and **Validation Predictions** are diverging. Also, the **validation_mean_absolute_error** value is high.
 
 9. So to reduce it we adjust the date window and finally obtain
 
-![image](https://github.com/user-attachments/assets/79f2b0e7-6a01-4a5d-83bc-f3f2a092c0cd)
+![image](https://github.com/user-attachments/assets/8b438631-bf61-4873-b5bd-f123f3439469)
 
 10. After that, we recursively predict the prices and obtain
 
