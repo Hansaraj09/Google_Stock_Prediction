@@ -30,5 +30,7 @@ Let's have a brief walk through this!
 
 ![image](https://github.com/user-attachments/assets/9e45feee-e62f-498f-8e84-3c4bb7156f13)
 
-**Note**: From the plot above we can see that the recursive line is flat stating that the model has no idea of how to predict the future. This is kind of funny!! However, this approach represents a reasonable method of prediction, acknowledging the inherent challenges associated with forecasting stock prices.
+**Note**: From the plot above, we can see that the recursive line is flat, indicating that the model has no idea how to predict the future. This is kind of funny!! However, this approach represents a reasonable prediction method, acknowledging the inherent challenges of forecasting stock prices.
 Also from the curve trend plot above it is safe to say that it is a good stock.
+
+**If you find this project helpful, please consider giving it a ⭐**
